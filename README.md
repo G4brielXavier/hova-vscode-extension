@@ -15,12 +15,6 @@ This VSCode extension adds syntax hightlighting, hover information and tooling s
 - Basic Semantic Coloring
 - Snippets for common language structures
 
-Soon:
-- More Tooling
-- Validation
-- Advanced language support
-- LSP
-
 
 ## 🧠 Known Issues
 
