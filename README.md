@@ -6,7 +6,7 @@
 
 This VSCode extension adds syntax hightlighting, hover information and tooling support to make working with **Hova** easier, clearer and more powerful.
 
-![Hova](./gifs/HovaCoding.gif)
+![Hova](./gifs/hova_overview.gif)
 
 ## ✨ Features
 
