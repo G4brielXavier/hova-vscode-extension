@@ -1,0 +1,65 @@
+{
+  "main": "./out/extension.js",
+  "name": "hova-plugin",
+  "displayName": "hova-plugin",
+  "description": "Hova is a domain-specific language to describe, organize and standardize data info, that can be converted to JSON, YAML, TOML or others.",
+  "version": "0.1.0",
+  "trace": "verbose",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hova",
+        "aliases": ["Hova", "hova"],
+        "extensions": [".hova"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "hova",
+        "scopeName": "source.hova",
+        "path": "./syntaxes/hova.tmLanguage.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[hova]": {}
+    },
+    "themes": [
+      {
+        "label": "Hova Dark Basic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hova-dark-basic.json"
+      },
+      {
+        "label": "Hova Light Basic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hova-light-basic.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "hova",
+        "path": "./snippets/hova-snippets.json"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gabriel Xavier",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@types/vscode": "^1.107.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {}
+}

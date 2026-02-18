@@ -1,0 +1,78 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"scopeName": "source.hova",
+	"patterns": [
+		{ "include": "#encompass" },
+		{ "include": "#definer" },
+		{ "include": "#atomsconfig" },
+		{ "include": "#strings" },
+		{ "include": "#types" },
+		{ "include": "#numbers" },
+		{ "include": "#booleans" },
+		{ "include": "#single_line_comment" },
+		{ "include": "#multi_line_comment" },
+		{ "include": "#encompass_struct" }
+	],
+	"repository": {
+		"encompass": {
+			"patterns": [{
+				"match": "\\b(anvil|ore|atomic|cave)\\b",
+				"name": "keyword.encompass.hova"
+			}]
+		},
+		"atomsconfig": {
+			"patterns": [{
+				"match": "\\b(creator|emit|visual|hideAtomic|hideConfig|outDir)\\b",
+				"name": "entity.name.method.hova"
+			}]
+		},
+		"encompass_struct": {
+			"patterns": [{
+				"match": "\\b(end)\\b",
+				"name": "keyword.block.hova"
+			}]
+		},
+		"definer": {
+			"patterns": [{
+				"match": "\\b(spark|atom)\\b",
+				"name": "keyword.definer.hova"
+			}]
+		},
+		"single_line_comment": {
+			"begin": "\\.\\.",
+			"end": "$",
+			"name": "comment.line.hova"
+		},
+		"multi_line_comment": {
+			"patterns": [{
+				"begin": "\\./",
+				"end": "/\\.",
+				"name": "comment.block.hova"
+			}]
+		},
+		"types": {
+			"patterns": [{
+				"match": "\\b(str|int|bool|list|float|sufx)\\b",
+				"name": "storage.type.hova" 
+			}]
+		},
+		"strings": {
+			"patterns": [{
+				"match": "'[^']*'|\"[^\"]*\"",
+				"name": "string.quoted.hova"
+			}]
+		},
+		"numbers": {
+			"patterns": [{
+				"match": "\\b[0-9]+(\\.[0-9]+)?\\b",
+				"name": "constant.numeric.hova"
+			}]
+		},
+		"booleans": {
+			"patterns": [{
+				"match": "\\b(true|false)\\b",
+				"name": "constant.booleans.hova"
+			}]
+		}
+	}
+}

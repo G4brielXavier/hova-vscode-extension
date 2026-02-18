@@ -1,0 +1,61 @@
+{
+    "Anvil": {
+        "prefix": "anvil",
+        "body": [
+            "anvil ${1:Name}",
+            "\t$0",
+            "\tatomic",
+            "\t\tatom creator : \"${2:Creator}\"",
+            "\t\tatom emit : \"${3:FileType}\"",
+            "\tend",
+            "\t$0",
+            "\tore ${4:EntityName}",
+            "\tend",
+            "\t$0",
+            "end"
+        ],
+        "description": "Creates an AnvilEncompass with an AtomicEncompass and an OreEncompass inside."
+    },
+    "Ore": {
+        "prefix": "ore",
+        "body": [
+            "ore ${1:OreName}",
+            "\t$0",
+            "end"
+        ],
+        "description": "Creates an OreEncompass."
+    },
+    "Cave": {
+        "prefix": "cave",
+        "body": [
+            "cave ${1:CaveName}",
+            "\tore ${2:OreName}",
+            "\tend",
+            "end"
+        ],
+        "description": "Creates a CaveEncompass with an OreEncompass inside."
+    },
+    "Atomic": {
+        "prefix": "atomic",
+        "body": [
+            "atomic",
+            "\t$0",
+            "end"
+        ],
+        "description": "Creates an AtomicEncompass"
+    },
+    "Spark": {
+        "prefix": "spark",
+        "body": [
+            "spark ${1:Name} ${2:Type} : ${3:Value}"
+        ],
+        "description": "Creates a SparkDefiner"
+    },
+    "Atom": {
+        "prefix": "atom",
+        "body": [
+            "atom ${1:Name} : \"\""
+        ],
+        "description": "Creates an AtomDefiner"
+    }
+}

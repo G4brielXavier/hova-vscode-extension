@@ -1,0 +1,95 @@
+{
+    "name": "Hova Light Basic",
+    "type": "light",
+    "colors": {
+        "editor.background": "#fafafa",
+        "editor.foreground": "#0a0a0a",
+        "activityBar.background": "#f8f8f8",
+        "sideBar.background": "#e3e3e3",
+        "statusBar.background": "#e3e3e3",
+        "tab.border": "#888888",
+        "tab.activeBackground": "#a9a9a9",
+        "tab.activeForeground": "#000000",
+        "tab.inactiveBackground": "#e3e3e3",
+        "tab.inactiveForeground": "#888888",
+        "editorCursor.foreground": "#000000",
+        "editor.selectionBackground": "#e3e3e3",
+        "editor.wordHighlightTextBorder": "#1a1d24",
+        "editor.wordHighlightTextBackground": "#b0b0b0",
+        "titleBar.activeBackground": "#e4e4e4",
+        "titleBar.activeForeground": "#000000",
+        "titleBar.inactiveBackground": "#e4e4e4",
+        "titleBar.inactiveForeground": "#777777",
+        "menubar.selectionBackground": "#1a1d24",
+        "menubar.selectionForeground": "#ffffff"
+    },
+    "tokenColors": [
+        
+        
+        {
+            "scope": "keyword.encompass.hova",
+            "settings": {
+                "foreground": "#718ceb",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "entity.name.method.hova",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "keyword.block.hova",
+            "settings": {
+                "foreground": "#546cc2"
+            }
+        },
+        {
+            "scope": "keyword.definer.hova",
+            "settings": {
+                "foreground": "#7e91fd"
+            }
+        },
+        {
+            "scope": "comment.line.hova",
+            "settings": {
+                "foreground": "#717171",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "comment.block.hova",
+            "settings": {
+                "foreground": "#666666",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "storage.type.hova",
+            "settings": {
+                "foreground": "#89bafd",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "string.quoted.hova",
+            "settings": {
+                "foreground": "#3fca90"
+            }
+        },
+        {
+            "scope": "constant.numeric.hova",
+            "settings": {
+                "foreground": "#399cff"
+            }
+        },
+        {
+            "scope": "constant.booleans.hova",
+            "settings": {
+                "foreground": "#6c51c5",
+                "fontStyle": "italic bold"
+            }
+        }
+    ]
+}

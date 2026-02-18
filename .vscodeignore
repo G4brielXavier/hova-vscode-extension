@@ -1,0 +1,10 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+vsc-extension-quickstart.md
+
+WHL_PATH
+NOTES.text
+CHANGELOG.md
+lsp_hova_venv
+.vscode
