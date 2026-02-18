@@ -10,68 +10,61 @@
 		{ "include": "#numbers" },
 		{ "include": "#booleans" },
 		{ "include": "#single_line_comment" },
-		{ "include": "#multi_line_comment" },
-		{ "include": "#encompass_struct" }
+		{ "include": "#multi_line_comment" }
 	],
 	"repository": {
 		"encompass": {
 			"patterns": [{
-				"match": "\\b(anvil|ore|atomic|cave)\\b",
-				"name": "keyword.encompass.hova"
+				"match": "\\b(anvil|ore|atomic|cave|end)\\b",
+				"name": "keyword.control"
 			}]
 		},
 		"atomsconfig": {
 			"patterns": [{
 				"match": "\\b(creator|emit|visual|hideAtomic|hideConfig|outDir)\\b",
-				"name": "entity.name.method.hova"
-			}]
-		},
-		"encompass_struct": {
-			"patterns": [{
-				"match": "\\b(end)\\b",
-				"name": "keyword.block.hova"
+				"name": "entity.name.method"
 			}]
 		},
 		"definer": {
 			"patterns": [{
 				"match": "\\b(spark|atom)\\b",
-				"name": "keyword.definer.hova"
+				"name": "keyword.other"
 			}]
 		},
 		"single_line_comment": {
 			"begin": "\\.\\.",
 			"end": "$",
-			"name": "comment.line.hova"
+			"name": "comment.line"
 		},
 		"multi_line_comment": {
 			"patterns": [{
 				"begin": "\\./",
 				"end": "/\\.",
-				"name": "comment.block.hova"
+				"name": "comment.block"
 			}]
 		},
 		"types": {
 			"patterns": [{
 				"match": "\\b(str|int|bool|list|float|sufx)\\b",
-				"name": "storage.type.hova" 
+				"name": "storage.type" 
 			}]
 		},
 		"strings": {
 			"patterns": [{
 				"match": "'[^']*'|\"[^\"]*\"",
-				"name": "string.quoted.hova"
+				"name": "string.quoted"
 			}]
 		},
 		"numbers": {
 			"patterns": [{
 				"match": "\\b[0-9]+(\\.[0-9]+)?\\b",
-				"name": "constant.numeric.hova"
+				"name": "constant.numeric"
 			}]
 		},
 		"booleans": {
 			"patterns": [{
 				"match": "\\b(true|false)\\b",
-				"name": "constant.booleans.hova"
+				"name": "constant.language.boolean"
 			}]
 		}
 	}
