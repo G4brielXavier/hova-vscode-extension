@@ -41,25 +41,22 @@ exports.deactivate = deactivate;
 const vscode = __importStar(require("vscode"));
 const hovaDocs_1 = __importDefault(require("./hovaDocs"));
 const docs = {
-    // encompass
     anvil: new vscode.MarkdownString(hovaDocs_1.default.anvil),
     atomic: new vscode.MarkdownString(hovaDocs_1.default.atomic),
     ore: new vscode.MarkdownString(hovaDocs_1.default.ore),
     cave: new vscode.MarkdownString(hovaDocs_1.default.cave),
-    // definer
     spark: new vscode.MarkdownString(hovaDocs_1.default.spark),
     atom: new vscode.MarkdownString(hovaDocs_1.default.atom),
     seal: new vscode.MarkdownString(hovaDocs_1.default.seal),
-    // seal functions
     mark: new vscode.MarkdownString(hovaDocs_1.default.mark),
     reject: new vscode.MarkdownString(hovaDocs_1.default.reject),
-    // atoms hova
     emit: new vscode.MarkdownString(hovaDocs_1.default.emit),
     visual: new vscode.MarkdownString(hovaDocs_1.default.visual),
     hideConfig: new vscode.MarkdownString(hovaDocs_1.default.hideConfig),
     hideAtomic: new vscode.MarkdownString(hovaDocs_1.default.hideAtomic),
     outDir: new vscode.MarkdownString(hovaDocs_1.default.outDir),
     creator: new vscode.MarkdownString(hovaDocs_1.default.creator),
+    dimension: new vscode.MarkdownString(hovaDocs_1.default.dimension),
     // types
     str: new vscode.MarkdownString(hovaDocs_1.default.str),
     int: new vscode.MarkdownString(hovaDocs_1.default.int),

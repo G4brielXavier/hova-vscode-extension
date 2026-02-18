@@ -194,6 +194,18 @@ end
 See also:
 - anvil
 `,
+    dimension:
+`### Dimension
+It is used to convert multiples \`.hova\` files inside a folder/directory, using the CLI command \`hova dimen main.hova\`
+
+---
+
+\`\`\`hova
+dimension myproject/myfolder
+dimension myproject/myfolder2
+dimension myproject/otherfolder
+\`\`\`
+`,
     outDir:
 `### outDir
 Defines name of directory that the file emitted will be added.
@@ -300,8 +312,8 @@ Represents a list of values from different types, that is inside '[...]'.
 Represents a string that receive compact number values.
 
 Example:
-Converts "1k" to 1000
-Converts "1m" to 1000000
+Converts !"1k" to 1000
+Converts !"1m" to 1000000
 
 It easily to define big numbers, that have many zeros. 
 `

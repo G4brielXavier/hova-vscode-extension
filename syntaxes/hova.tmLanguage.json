@@ -15,7 +15,7 @@
 	"repository": {
 		"encompass": {
 			"patterns": [{
-				"match": "\\b(anvil|ore|atomic|cave|end)\\b",
+				"match": "\\b(anvil|ore|atomic|cave|end|dimension)\\b",
 				"name": "keyword.control"
 			}]
 		},

@@ -22,32 +22,32 @@
     },
     "tokenColors": [
         {
-            "scope": "keyword.encompass.hova",
+            "scope": "keyword.control",
             "settings": {
                 "foreground": "#718ceb",
                 "fontStyle": "bold"
             }
         },
         {
-            "scope": "entity.name.method.hova",
+            "scope": "entity.name.method",
             "settings": {
                 "fontStyle": "italic"
             }
         },
         {
-            "scope": "keyword.block.hova",
+            "scope": "keyword.other",
             "settings": {
                 "foreground": "#546cc2"
             }
         },
         {
-            "scope": "keyword.definer.hova",
+            "scope": "keyword.other",
             "settings": {
                 "foreground": "#7e91fd"
             }
         },
         {
-            "scope": "comment.line.hova",
+            "scope": "comment.line",
             "settings": {
                 "foreground": "#717171",
                 "fontStyle": "italic"
@@ -61,26 +61,26 @@
             }
         },
         {
-            "scope": "storage.type.hova",
+            "scope": "storage.type",
             "settings": {
                 "foreground": "#89bafd",
                 "fontStyle": "italic"
             }
         },
         {
-            "scope": "string.quoted.hova",
+            "scope": "string.quoted",
             "settings": {
                 "foreground": "#3fca82"
             }
         },
         {
-            "scope": "constant.numeric.hova",
+            "scope": "constant.numeric",
             "settings": {
                 "foreground": "#399cff"
             }
         },
         {
-            "scope": "constant.booleans.hova",
+            "scope": "constant.language.boolean",
             "settings": {
                 "foreground": "#6c51c5",
                 "fontStyle": "italic bold"

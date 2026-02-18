@@ -3,28 +3,28 @@ import * as vscode from 'vscode';
 import DocDescFeature from './hovaDocs';
 
 const docs: Record<string, vscode.MarkdownString> = {
-    // encompass
+
     anvil: new vscode.MarkdownString(DocDescFeature.anvil),
     atomic: new vscode.MarkdownString(DocDescFeature.atomic),
     ore: new vscode.MarkdownString(DocDescFeature.ore),
     cave: new vscode.MarkdownString(DocDescFeature.cave),
     
-    // definer
+
     spark: new vscode.MarkdownString(DocDescFeature.spark),
     atom: new vscode.MarkdownString(DocDescFeature.atom),
     seal: new vscode.MarkdownString(DocDescFeature.seal),
     
-    // seal functions
+
     mark: new vscode.MarkdownString(DocDescFeature.mark),
     reject: new vscode.MarkdownString(DocDescFeature.reject),
-    
-    // atoms hova
+
     emit: new vscode.MarkdownString(DocDescFeature.emit),
     visual: new vscode.MarkdownString(DocDescFeature.visual),
     hideConfig: new vscode.MarkdownString(DocDescFeature.hideConfig),
     hideAtomic: new vscode.MarkdownString(DocDescFeature.hideAtomic),
     outDir: new vscode.MarkdownString(DocDescFeature.outDir),
     creator: new vscode.MarkdownString(DocDescFeature.creator),
+    dimension: new vscode.MarkdownString(DocDescFeature.dimension),
 
     // types
     str: new vscode.MarkdownString(DocDescFeature.str),
