@@ -20,10 +20,10 @@ This VSCode extension adds syntax hightlighting, hover information and tooling s
 
 If you find something, open an issue on Github 👍
 
-## 🔗 For more information
+## 🔗 For more information about Hova
 
-* [Hova Documentation](https://hova.space/)
-* [Hova's Creator](https://gx.space)
+
+* [Hova Documentation](https://hovaforge.vercel.app/)
 * [Hova's Github](https://github.com/G4brielXavier/Hova)
 
 

@@ -2,8 +2,10 @@
   "main": "./out/extension.js",
   "name": "hova-plugin",
   "displayName": "hova-plugin",
+  "publisher": "GabrielXavier",
+  "icon": "./gifs/HovaForge_Black.png",
   "description": "Hova is a domain-specific language to describe, organize and standardize data info, that can be converted to JSON, YAML, TOML or others.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "trace": "verbose",
   "engines": {
     "vscode": "^1.107.0"
@@ -61,5 +63,9 @@
     "@types/vscode": "^1.107.0",
     "typescript": "^5.9.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/G4brielXavier/hova-vscode-extension"
+  }
 }
